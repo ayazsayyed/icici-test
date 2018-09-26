@@ -1,0 +1,36 @@
+.btn-save,
+.btn-proceed {
+  width: 160px;
+  padding: 10px;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.4s;
+}
+
+.btn-save {
+  background: none;
+  border: 2px solid#b1b1b1;
+  color: #7e7e7e;
+}
+
+.btn-save:hover {
+  background: #7e7e7e;
+  color: #fff
+}
+
+.btn-proceed {
+  background: #819cb5;
+  color: #fff;
+}
+
+.btn-proceed:hover {
+  background: #fff;
+  color: #819cb5;
+  border: 2px solid#819cb5;
+}
+
+a {
+  color: #7e7e7e;
+  font-weight: 600;
+}

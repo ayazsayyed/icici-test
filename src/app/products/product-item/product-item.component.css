@@ -1,0 +1,19 @@
+h5 {
+  font-weight: 600;
+  padding-left: 20px;
+  margin: 0;
+  font-size: 18px;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+li {
+  font-size: 16px;
+  line-height: 1.9rem;
+}
+
+.card-body {
+  padding-right: 0;
+}

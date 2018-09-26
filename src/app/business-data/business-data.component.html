@@ -1,0 +1,36 @@
+<section class="main-content">
+  <div class="container">
+    <div class="row">
+      <div class="col my-5">
+        <p class="lead text-center">Please, let us know about your business</p>
+
+      </div>
+
+    </div>
+
+    <app-card-item></app-card-item>
+
+
+
+  </div>
+  <div class="container">
+    <form>
+      <div class="form-group row">
+        <label for="inputPassword" class="col-sm-5 col-form-label">Nature of Your Business</label>
+        <div class="col-sm-7">
+          <select class="form-control form-control-lg">
+              <option *ngFor="let item of business" [value]="item.value">{{item.name}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputPassword" class="col-sm-5 col-form-label">Duration after Company Incorporated</label>
+        <div class="col-sm-7">
+          <select class="form-control form-control-lg">
+              <option *ngFor="let item of business" [value]="item.value">{{item.name}}</option>
+          </select>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
